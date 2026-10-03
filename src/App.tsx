@@ -10,6 +10,7 @@ import { AboutSection } from './components/AboutSection';
 import { ProjectsSection } from './components/ProjectsSection';
 import { CloudSkillsSection } from './components/CloudSkillsSection';
 import { AutomationLab } from './components/AutomationLab';
+import { GitHubSection } from './components/GitHubSection';
 import { ExperienceSection } from './components/ExperienceSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
@@ -68,10 +69,13 @@ export default function App() {
         {/* 04. Automation & Script Optimization Lab */}
         <AutomationLab />
 
-        {/* 05. Career & Real-World Operations Timeline */}
+        {/* 05. GitHub Account & Production Repositories */}
+        <GitHubSection />
+
+        {/* 06. Career & Real-World Operations Timeline */}
         <ExperienceSection />
 
-        {/* 06. Contact & Direct Outreach */}
+        {/* 07. Contact & Direct Outreach */}
         <ContactSection />
       </main>
 

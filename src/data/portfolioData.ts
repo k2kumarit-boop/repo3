@@ -60,7 +60,8 @@ export const PERSONAL_INFO = {
   title: 'Software & Cloud Infrastructure Engineer',
   currentRole: 'Desktop Support Engineer · Systems Automation Specialist',
   email: 'k2kumarit@gmail.com',
-  github: 'https://github.com/kumar-it',
+  github: 'https://github.com/k2kumarit',
+  githubUsername: 'k2kumarit',
   linkedin: 'https://linkedin.com/in/kumar-support-cloud',
   location: 'Available for Remote & Hybrid Roles',
   bioHeadline: 'Turning Hands-On Operating System Diagnostics into Resilient Cloud Architecture & Code',
@@ -97,7 +98,7 @@ export const PROJECTS: Project[] = [
     techStack: ['Python', 'AWS Lambda', 'Amazon DynamoDB', 'GCP Pub/Sub', 'PowerShell Core', 'Terraform', 'Docker'],
     cloudProviders: ['AWS', 'GCP'],
     image: '/src/assets/images/cloud_topology_1791002767183.jpg',
-    githubUrl: 'https://github.com/kumar-it/cloudops-fleet-automator',
+    githubUrl: 'https://github.com/k2kumarit/cloudops-fleet-automator',
     commandSnippet: {
       shell: 'python',
       title: 'agent_health_probe.py',
@@ -139,7 +140,7 @@ def evaluate_endpoint():
     techStack: ['AWS Boto3', 'Google Cloud SDK', 'Python', 'AWS CloudWatch', 'GCP Cloud Run', 'Terraform'],
     cloudProviders: ['AWS', 'GCP'],
     image: '/src/assets/images/cloud_topology_1791002767183.jpg',
-    githubUrl: 'https://github.com/kumar-it/cloud-sentinel-drift',
+    githubUrl: 'https://github.com/k2kumarit/cloud-sentinel-drift',
     commandSnippet: {
       shell: 'bash',
       title: 'audit_unattached_volumes.sh',
@@ -176,7 +177,7 @@ gcloud compute disks list --filter="-users:*" \\
     techStack: ['PowerShell Core', 'Bash', 'Ansible', 'Windows PE', 'Cloud Storage', 'Sysprep', 'WMI'],
     cloudProviders: ['Hybrid'],
     image: '/src/assets/images/system_automation_1791002780628.jpg',
-    githubUrl: 'https://github.com/kumar-it/zerotouch-sysdeploy',
+    githubUrl: 'https://github.com/k2kumarit/zerotouch-sysdeploy',
     commandSnippet: {
       shell: 'powershell',
       title: 'Invoke-ZeroTouchBaseline.ps1',
@@ -212,7 +213,7 @@ Write-Host "[✓] Core OS hardening and BitLocker applied successfully."`
     techStack: ['React', 'TypeScript', 'Node.js / Express', 'Tailwind CSS', 'PowerShell Remoting', 'REST APIs'],
     cloudProviders: ['GCP'],
     image: '/src/assets/images/engineer_workspace_1791002752728.jpg',
-    githubUrl: 'https://github.com/kumar-it/it-incident-diagnostic-hub',
+    githubUrl: 'https://github.com/k2kumarit/it-incident-diagnostic-hub',
     demoUrl: '#automation-lab'
   },
   {
@@ -237,7 +238,7 @@ Write-Host "[✓] Core OS hardening and BitLocker applied successfully."`
     techStack: ['AWS IAM', 'Google Cloud IAM', 'Python', 'Boto3', 'GCP Asset Inventory', 'GitHub Actions'],
     cloudProviders: ['AWS', 'GCP'],
     image: '/src/assets/images/cloud_topology_1791002767183.jpg',
-    githubUrl: 'https://github.com/kumar-it/iam-least-privilege-guardian'
+    githubUrl: 'https://github.com/k2kumarit/iam-least-privilege-guardian'
   },
   {
     id: 'endpoint-telemetry-cleaner',
@@ -261,7 +262,7 @@ Write-Host "[✓] Core OS hardening and BitLocker applied successfully."`
     techStack: ['PowerShell Core', 'Bash', 'Windows Registry', 'Linux Cron', 'Disk Cleanup APIs'],
     cloudProviders: ['Hybrid'],
     image: '/src/assets/images/system_automation_1791002780628.jpg',
-    githubUrl: 'https://github.com/kumar-it/endpoint-telemetry-cleaner'
+    githubUrl: 'https://github.com/k2kumarit/endpoint-telemetry-cleaner'
   }
 ];
 

@@ -35,6 +35,9 @@ export const Footer: React.FC = () => {
             <a href="#automation-lab" className="hover:text-slate-200 transition-colors">
               Automation Lab
             </a>
+            <a href="#github" className="hover:text-slate-200 transition-colors">
+              GitHub Repos
+            </a>
             <a href="#experience" className="hover:text-slate-200 transition-colors">
               Experience
             </a>

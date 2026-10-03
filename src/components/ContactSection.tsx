@@ -157,7 +157,7 @@ END:VCARD`;
                       GitHub Profile
                     </div>
                     <div className="text-sm font-semibold text-white group-hover:text-cyan-400 transition-colors font-mono">
-                      github.com/kumar-it
+                      github.com/{PERSONAL_INFO.githubUsername || 'k2kumarit'}
                     </div>
                   </div>
                 </div>
